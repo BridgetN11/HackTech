@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Green Scheme</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+      <img src="greenschemelogo.png" alt="logo">
+      <header>
+         <h2 id="text">helping you make your life just a little bit greener every day.</h2>
+         <nav class="horizontal">
+           <ul class="mainmenu">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="trashbot.html">Trash Bot</a></li>
+             <li><a href="greenscaping.html">Greenscaping</a></li>
+             <li><a href="resources.html">Learn More</a></li>
+           </ul>
+         </nav>
+      </header>
+
+      <div id="home">
+        <center id="home">
+          <h1>Welcome!</h1>
+          <p>Every day more and more new information is released about how individuals can work to improve their own carbon footprint. So much information that it can be overwhelmining to individuals who dont know where to start. Welcome to GreenScheme, a website designed to make green living comprehensive and accessible to everyone, including you!</p>
+        </center>
+        <div id="mission">
+          <h2>Mission Statement</h2>
+          <p>Our mission is to create a space where each and every individual can see the simplicity and accessibility of an eco-friendly lifestyle and begin a lifelong journey of sustainability.<p>
+        </div>
+        <div id="ecoseals">  
+          <h2>Looking for sustainability</h2>
+          <p>In many different industries, sustainable practices in production can be marked by a stamp of seal indicating that it has gone through an eco-friendy process or evaluation, and these can be halpful in deciding which products to purchase when looking for a greener option.</p>
+        
+          <seals>
+              <div id="seal1"><img src="green_seal_logo.png" alt="logo"></div>
+              <div id="seal2"><img src="usdalogo.png" alt="logo"></div>
+              <div id="seal3"><img src="energystar.png" alt="logo"></div>
+              <div id="seal4"><img src="fsclogo.png" alt="logo"></div>
+              <div id="sealdec1">Green Seal is a nonprofit known for its rigorous standards of approval for companies to meet their sustainability requirements, and this stamp of approval is a great indicator of an ecofriendly product.</div>
+              <div id="sealdec2">An USDA Organic accreditation for food products is a good way to know if a food product was produced without environmentally harmful chemicals and fertilizers.</div>
+              <div id="sealdec3">Energy Star is a EPA-backed organization that approves energy-saving and energy-efficient products.</div>
+              <div id="sealdec4">Energy Star is a EPA-backed organization that approves energy-saving and energy-efficient products.</div>
+          </seals>
+        </div>
+        <div id="recycling">
+          <h2>Reduce, Reuse, Recycle</h2>
+          <img src="rrricon.webp" alt="RRR symbol">
+          <p>Another great way to maintain an eco-friendly lifestyle is to uphold conscious consumerism by understanding the lifecycle of products they consume and where they might end up. While cliché, the “Reduce, Reuse, Recycle” phrase remains important in growing sustainable practices in everyday lives. Rampant consumerism an overproduction is one of the primary factors of pollution and greenhouse gas emissions. Practicing each of the “three R’s” will lead to less landfill waste and less energy consumption in the production of new product and transport of trash.</p>
+        </div>
+        <div id="transport">
+          <h2>Sustainable Transportation</h2>
+          <img src="csucarbonchart.jpeg" alt="Carbon chart">
+          <p>While it may not be easy to find accessible and eco-friendly transportation options, reducing the need for vehicles that run on fossil fuels can significantly lower greenhouse gas emissions and slow the effects of global warming. Rather than driving a car, try finding public transportation, and if a close enough distance, try biking or walking instead! Did you know it causes more carbon to be emitted into the atmosphere to travel by horse rather than public bus? Take a look at the graphic from Colorado State University to see how your go-to transit method compared to other method in terms of carbon dioxide emissions. The more you understand the effects of the transit you choose, the more sustainable choices you can make in the future.</p>
+
+        </div>
+      </div>
+    </body>
+</html>
