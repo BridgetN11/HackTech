@@ -1,0 +1,270 @@
+
+@charset"Utf-8";
+html{
+  color: black;
+  background-color: rgb(130, 181, 134);
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: rgb(255, 255, 255);
+  color: rgb(96, 54, 138);
+  padding-top: 40px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+header#text{
+  text-align: center;
+  padding-top: 100px;
+  background-color: rgb(245, 242, 235);;
+}
+div>center>h1{
+  font-size: 1.7em;
+  font-family: cursive;
+}
+header>h2{
+  font-size: 1em;
+  text-align: left;
+}
+img{
+  width: 160px;
+  height: 140px;
+  float: left;
+  display: flex;
+  justify-content: left;
+}
+
+nav{
+  float: left;
+  background-color: rgb(96, 54, 138);
+  color: white;
+  padding-bottom: 5px;
+  padding-top: 0px;
+  font-size: 1em;
+  width: 100%;
+}
+body>header> nav.horizontal li {
+   width: 25%;
+}
+nav.horizontal > ul > li{
+   display: block;
+   float: left;
+   /*font-size: 1em;*/
+}
+a:link, a:visited{
+  color: rgb(245, 242, 235);
+}
+
+a:hover{
+  color: rgb(224, 215, 255);
+}
+body{
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+div{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+div>center>p{
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+center, vid, div#grid, div#mission, bottom, seals, div#ecoseals, div#recycling, div#reading, div#transport{
+  display: block;
+  float: center;
+  background-color: rgb(245, 242, 235);
+  color: rgb(96, 54, 138);
+  font-size: .8em;
+  padding: 10px;
+  padding-right: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+div>center{
+  background: linear-gradient(rgba(255, 255, 255, .6),rgba(255, 255, 255, .6)), url(grass.jpeg);
+  width: 90%;
+  padding-top: 30px;
+}
+div>center>h1{
+  font-size: 2em;
+}
+div#mission{
+  background-color: rgb(224, 215, 255);
+  font-size: 1em;
+}
+div#ecoseals>p, div#recycling>p{
+  font-size: 1.2em;
+}
+div#transport>img{
+  height: 150px;
+  width:100px;
+  margin: 5px;
+}
+div#transport>p{
+  font-size: 1.2em;
+}
+
+div#resources>div#reading{
+  text-align: left;
+}
+seals>div>img{
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  padding: auto;
+}
+seals{
+  background-color: rgb(107, 138, 114);
+  color: rgb(245, 242, 235);
+  display: grid;
+  text-align: left;
+  padding: auto;
+  margin: auto;
+  font-size: .9em;
+  row-gap: 20px;
+  width: 80%;
+}
+div#seal1{
+  grid-column:1;
+  grid-row:1;
+}
+div#seal2{
+  grid-column:2;
+  grid-row:1;
+}
+div#seal3{
+  grid-column:3;
+  grid-row:1;
+}
+div#seal4{
+  grid-column:4;
+  grid-row:1;
+}
+div#sealdec1{
+  grid-column:1;
+  grid-row:2;
+  text-align: left;
+}
+div#sealdec2{
+  grid-column:2;
+  grid-row:2;
+  text-align: left;
+}
+div#sealdec3{
+  grid-column:3;
+  grid-row:2;
+  text-align: left;
+}
+div#sealdec4{
+  grid-column:4;
+  grid-row:2;
+  text-align: left;
+}
+div#recycling{
+  background-color: rgb(224, 215, 255);
+}
+div#grid{
+  display: grid;
+  grid-template-columns: 5px, 5px;
+  text-align: left;
+  padding: auto;
+  margin: auto;
+  font-size: .8em;
+  row-gap: 20px;
+}
+div#grid-item1{
+  grid-column: 1;
+  grid-row: 1;
+  width: 170px;
+  padding-left: 5px;
+  background-color: rgb(224, 215, 255);
+}
+div#grid-item2{
+  grid-column: 1;
+  grid-row: 2;
+  width: 170px;
+  padding-left: 5px;
+  background-color: rgb(224, 215, 255);
+}
+div#grid-item3{
+  grid-column: 1;
+  grid-row: 3;
+  width: 170px;
+  padding-left: 5px;
+  background-color: rgb(224, 215, 255);
+}
+div#grid-item4{
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+  padding-left: 5px;
+}
+div#grid-item5{
+  grid-column: 2;
+  grid-row: 2;
+  text-align: left;
+  padding-left: 5px;
+}
+div#grid-item6{
+  grid-column: 2;
+  grid-row: 3;
+  text-align: left;
+  padding-left: 5px;
+}
+vid{
+  font-size: 1em;
+  text-align: center;
+  background-color: rgb(224, 215, 255);
+}
+bottom{
+  background-color: rgb(107, 138, 114);
+  font-size: 1em;
+}
+iframe {
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width: 100%;
+}
+gridPage{
+  width: 75%;
+}
+body>center>p{
+  font-size: 1.3em;
+}
+body>center>h1{
+  padding-top: 40px;
+}
+vid>p{
+  text-align: left;
+}
+div#reading{
+  background-color: rgb(107, 138, 114);
+  color: rgb(245, 242, 235);
+  text-align: left;
+}
+
+@media only screen and (max-width: 640px) {
+  body>div, article{
+    width: 100%;
+  }
+  header{
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  body>div, article{
+    width: 60%;
+  }
+
+}
